@@ -95,13 +95,13 @@ body {
   <div class="overlay-content">
     <form action="https://docs.google.com/viewer?" method="GET">
         <input type="text" id="pdfLink" name="url"><br><br>
-        <button type="submit">Open PDF</button> 
+        <button type="submit">Open File</button> 
     </form>
   </div>
 </div>
 
-<h2 style="text-align:left">PDFview v0.1</h2>
-<button class="openBtn" onclick="openSearch()">Open PDF in Firefox..</button>
+<h2 style="text-align:left">DocView v0.1</h2>
+<button class="openBtn" onclick="openSearch()">Open Doc File in Firefox..</button>
 
 <script>
 function openSearch() {
