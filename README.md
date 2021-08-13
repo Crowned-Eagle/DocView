@@ -1,1 +1,1 @@
-In browser PDF Viewer for Firefox Android 
+In browser Document Viewer for Firefox Android..
