@@ -101,7 +101,7 @@ body {
 </div>
 
 <h2 style="text-align:left">DocView v0.1</h2>
-<button class="openBtn" onclick="openSearch()">Open Doc File in Firefox..</button>
+<button class="openBtn" onclick="openSearch()">Open Document in Firefox..</button>
 
 <script>
 function openSearch() {
