@@ -76,7 +76,7 @@ body {
   width: 20%;
   padding: 5px;
   background: #ff0000;
-  font-size: 14px;
+  font-size: 16px;
   border: none;
   cursor: pointer;
 }
@@ -90,18 +90,18 @@ body {
 
 <body>
 
-<h2 style="text-align:left">PDFview v0.1</h2>
-<button class="openBtn" onclick="openSearch()">Open PDF in Firefox..</button>
-
 <div id="myOverlay" class="overlay">
   <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
   <div class="overlay-content">
     <form action="https://docs.google.com/viewer?" method="GET">
-        <input type="text" id="pdfLink" size="16" name="url" value=""><br><br>  
-        <button type="submit"> value="Open PDF"</button>      
+        <input type="text" id="pdfLink" name="url"><br><br>
+        <button type="submit">Open PDF</button> 
     </form>
   </div>
 </div>
+
+<h2 style="text-align:left">PDFview v0.1</h2>
+<button class="openBtn" onclick="openSearch()">Open PDF in Firefox..</button>
 
 <script>
 function openSearch() {
