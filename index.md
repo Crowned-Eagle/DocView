@@ -90,8 +90,6 @@ body {
 </head>
 <body>
 
-
-
 <div id="myOverlay" class="overlay">
   <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
   <div class="overlay-content">
