@@ -94,7 +94,7 @@ body {
 <div id="myOverlay" class="overlay">
   <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
   <div class="overlay-content">
-    <form action=https://docs.google.com/viewer? method="get">
+    <form action="https://docs.google.com/viewer?" method="get">
       <div>
         <textarea name="url" cols="50" rows="1"></textarea>
         <button>Open PDF</button>
