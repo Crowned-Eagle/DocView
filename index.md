@@ -30,7 +30,7 @@ body {
   display: none;
   position: fixed;
   z-index: 1;
-  top: 10%;
+  top: 30%;
   left: 0;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
